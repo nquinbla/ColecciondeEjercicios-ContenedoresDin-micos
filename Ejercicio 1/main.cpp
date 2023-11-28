@@ -9,16 +9,16 @@ int main() {
     vector<int> numeros;
     int n;
 
-    cout << "Introduce un numero: ";
+    cout << "Introduce un numero entero: ";
     cin >> n;
 
     while (n != 0) {
         numeros.push_back(n);
-        cout << "Introduce un numero: ";
+        cout << "Introduce un numero entero: ";
         cin >> n;
     }
 
-    cout << "Los numeros introducidos son: ";
+    cout << "Los numeros enteros introducidos son: ";
 
     for (vector<int>::iterator i = numeros.begin(); i != numeros.end(); i++) {
         cout << *i << " ";
