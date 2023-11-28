@@ -1,1 +1,1 @@
-# ColecciondeEjercicios-ContenedoresDin-micos
+# ColecciondeEjercicios-ContenedoresDinamicos
